@@ -62,6 +62,7 @@
 				<string>public</string>
 				<string>package</string>
 				<string>internal</string>
+				<string>internalWithExampleSubFeatures</string>
 			</array>
 		</dict>
 	</array>
