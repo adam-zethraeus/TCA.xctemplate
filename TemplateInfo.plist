@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
+		<string>com.apple.platform.watchos</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>TheComposableArchitecture</string>
+	<key>Description</key>
+	<string>TCA Component</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>SortOrder</key>
+	<integer>1</integer>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the feature</string>
+			<key>Default</key>
+			<string></string>
+			<key>Identifier</key>
+			<string>MODULENAME</string>
+			<key>Name</key>
+			<string>Feature name:</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+			<key>Default</key>
+			<string>___VARIABLE_MODULENAME___</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>ACCESS</string>
+			<key>Name</key>
+			<string>Access Control Level</string>
+			<key>Description</key>
+			<string>What access control level to assign</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>internal</string>
+			<key>Values</key>
+			<array>
+				<string>public</string>
+				<string>package</string>
+				<string>internal</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
