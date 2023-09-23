@@ -1,5 +1,8 @@
 # TCA.xctemplate
 
+An Xcode template for making TCA features.  
+Includes example template for common but more complicated integrations like Bindings and presented features — as well as access control variations.
+
 Installation:
 
 ```sh
